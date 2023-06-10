@@ -1,0 +1,42 @@
+.titulo {
+    font-size: 50px;
+    /* Tamaño de la fuente */
+    font-family: cursive;
+    /*Tipo de fuente*/
+    font-weight: normal;
+    /*Grosor de la fuente*/
+    color: brown;
+    /*Centrar el texto*/
+    text-align: center;
+
+    display: block;
+    background-color: cornflowerblue;
+    margin-top: 0;
+}
+
+.caja {
+    display: inline-block;
+    background-color: brown;
+    padding: 30px;
+    height:300px;
+    width: 300px;
+    box-sizing: border-box;
+    text-align: center;
+    
+    margin: 10px; /*Distancia entre las cajas*/
+
+    margin-left: 70px;
+
+    border-radius: 40px; /* Redondear el borde de la caja */
+
+    border: 4px solid black;  /*Ancho, tipo y color del borde*/
+
+    box-shadow: 2px 4px 30px 0 black; /*X, Y, desenfoque, borde, color*/
+}
+
+.fondo {
+    display: block;
+    background-color: coral;
+    height: max;
+    width: max;
+}

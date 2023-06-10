@@ -1,0 +1,83 @@
+* {
+    font-family: cursive;
+    font-weight: 100;
+    font-size: 40px;
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+
+
+
+.contenedor{
+    display: block;
+    background-color:darkslategrey;
+    width: 100%;
+
+    margin: 10px auto
+}
+
+.contenedor2{
+    background: grey;
+    margin: 10px;
+    width: 90%;
+}
+
+.imagen{
+    max-width: 30%;
+    border: 10px solid #000;
+    border-radius: 20px;
+    float: left;
+    
+    margin: 30px
+    
+}
+
+.text{
+    font-size: 25px;
+
+}
+
+.caja1{
+    position: static;  /*static es Posicion normal, estatico      */
+}
+
+
+
+
+.caja2{
+    background-color: antiquewhite;
+    position: relative; /*Su espacio queda reservado*/
+}
+
+.caja3{
+    background-color:brown;
+    position: absolute; /*pierde su espacio reservado*/
+    /* COMO CENTRAR UNA CAJA CON RESPECTO A SU CONTENEDOR*/
+    bottom: 0;
+    top: 0;
+    left: 0;
+    right: 0;
+    margin: auto;
+}
+
+.caja4{
+    background-color:chocolate;
+}
+
+
+
+/*Barra emergente al estilo de la barra de facebook*/
+
+body{
+    padding-top: 100px;
+}
+
+.fixed{
+    background-color: deeppink;
+    width: 1000px;
+    height: min-content;
+    position: fixed;
+    top:0;
+}

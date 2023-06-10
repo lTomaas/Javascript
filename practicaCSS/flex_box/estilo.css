@@ -1,0 +1,28 @@
+
+
+.flex-container{
+    display: flex;
+    flex-direction: row;  /* row(fila), column-rever(columna alreves)*/
+    /*translate: 50%; TRASLADAR A LA MITAD*/
+    flex-wrap: wrap;  /* No se achica la resolucion de las cajas, se acomodan solas */ 
+
+    /*Posicionar el contenido*/
+    justify-content:space-around;    /*baseline: principio, end: final, center: centro*/
+
+    /*Posicionar verticalmente*/
+    /*Util para una sola linea*/
+    height: 100vh;
+    align-items: center;
+
+    /*Posicionar verticalmente*/
+    /*util para mas de 1 linea*/
+    /* align-content: center; */
+
+}
+
+.flex-item{
+    background: rgb(110, 109, 109);
+    margin: 5px;
+    height: 120px;
+    width: 120px;
+}

@@ -1,0 +1,30 @@
+
+
+body{
+    background: rgb(41, 41, 41);
+    padding: 30px
+}
+
+
+.grid-container{
+    display: grid;
+    grid-template-rows: 150px 150px 150px;  /*Crea 3 filas de 150px*/
+    grid-template-columns: 1fr 1fr 1fr;  /*fr hace q se adapte a la resolucion*/
+    border: 3px solid #fff;
+
+}
+
+.grid-item{
+    color: #fff;
+    border: 1px solid #fff;
+}
+
+
+.grid-item:first-child{
+    background: red;
+    grid-column: 1 / 3;
+}
+
+.grid-item:nth-child(4){
+    background: rebeccapurple;
+}

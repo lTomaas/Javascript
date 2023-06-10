@@ -1,0 +1,65 @@
+.fondo{
+    background-image: url("https://esports.eldesmarque.com/wp-content/uploads/2019/10/Banner_Preseason-1_dwfwpnp0byzkpe2hk65v.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center center;
+    min-height: 100vh;
+}
+
+.indice{
+    position: absolute;
+    top: 5%;
+    right: 5%;
+    width: 10%;
+    height: auto;
+    mix-blend-mode: multiply
+}
+
+.indice_icon{
+    max-width: 100%;
+}
+
+.indice_icon:hover{
+    filter: brightness(170%);
+    cursor:pointer;
+}
+
+.info_cont{
+    display: inline-block;
+    width: 85%;
+    height: auto;
+    background: wheat;
+    position: absolute;
+    top: 30%;
+    left: 7%;
+    /*
+    background-image: url("https://vignette.wikia.nocookie.net/leagueoflegends/images/7/7a/Void_An_Unknowable_Power.jpg/revision/latest?cb=20180515055554");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center center;
+    */
+    background: rgb(63,94,251);
+    background: radial-gradient(circle, rgba(63,94,251,1) 0%, rgba(103,70,252,0.5550595238095238) 100%);
+
+    border: 4px solid #000;
+}
+
+
+.imagen{
+    max-width: 50%;
+    border: 10px solid #000;
+    border-radius: 20px;
+    float: left;
+    margin: 30px;
+    margin-top: 120px
+    
+}
+
+
+.lore{
+    margin-top: 20px;
+    font-size: 25px;
+    color: white
+}
+

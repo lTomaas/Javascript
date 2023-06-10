@@ -1,0 +1,95 @@
+* {
+    font-size: 100px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 100;
+
+}
+
+
+
+
+
+.fondo{
+    
+    background-image: url("https://esports.eldesmarque.com/wp-content/uploads/2019/10/Banner_Preseason-1_dwfwpnp0byzkpe2hk65v.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    background-position: center;
+
+    height:100vh;
+    width: 100vw;
+    padding: 60px;
+    padding-left: 120px;
+    box-sizing:border-box;
+
+    min-height: max-content;
+    min-width: max-content;
+    
+}
+
+
+.contenedor{
+    display: flex;
+    width: 800px;
+    height: 500px;
+    position: relative;
+
+    top: 20%;
+    right: -10%;
+
+    width: 75%;
+    height: 60%;
+
+    
+   
+}
+
+.imagen{
+    width: 0px;
+    flex-grow: 1;
+    object-fit: cover;
+
+    -webkit-filter: grayscale(1); 
+    filter: gray;
+    filter: grayscale(1); 
+
+    border-radius: 30px;
+    border: 3px solid black;
+    
+
+    min-width: 150px;
+    min-height: 150px;
+
+
+    transition: all 1.5s;
+}
+
+.imagen:hover{
+    filter: unset;
+
+    cursor: crosshair;
+    opacity: 1;
+    filter: contrast(120%);
+    width: 600px;
+}
+
+
+
+.indice{
+    position: absolute;
+    top: 0;
+    right:0;
+    width: 10%;
+    height: auto;
+    mix-blend-mode: multiply
+}
+
+.indice_icon{
+    max-width: 100%;
+}
+
+.indice_icon:hover{
+    filter: brightness(170%);
+    cursor:pointer;
+}

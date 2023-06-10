@@ -1,0 +1,37 @@
+* {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: 100;
+    font-size: 20px;
+}
+
+.fondo{
+    background-image: url("https://esports.eldesmarque.com/wp-content/uploads/2019/10/Banner_Preseason-1_dwfwpnp0byzkpe2hk65v.jpg");
+}
+
+
+.caja1 {
+    width: 550px;
+    height: 550px;
+    margin: 40px auto;
+    border: 4px solid brown;
+    background: yellowgreen;
+
+    overflow: auto;   /*auto: permite scrollear*/
+                        /*hidden: lo que sobresale lo recorda*/
+}
+
+
+.cont {
+    margin: auto;
+    margin-top: 30px;
+    border: 4px solid black;
+    width: 50%;
+    background: grey;
+}
+
+
+img {
+    width: 300px;
+    margin: 20px;
+    float: left;
+}
