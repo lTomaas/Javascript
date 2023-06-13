@@ -47,12 +47,20 @@ aside{
 }
 
 article{
+    display: flex;
     grid-area: content;
     padding: 20px;
     background: rgb(155, 58, 58);
     color: #fff;
+    justify-content: center;
 }
 
+article img{
+    width: 500px;
+    height: auto;
+    border-radius: 30px;
+    
+}
 
 
 
