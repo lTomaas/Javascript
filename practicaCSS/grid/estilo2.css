@@ -1,0 +1,156 @@
+body{
+    background: rgb(24, 22, 22);
+    font-family: sans-serif;
+}
+
+main {
+    display: grid;
+    grid-template-areas:
+        "head head head"
+        "side content content"
+        "foot foot foot";
+    height: 100vh;
+
+
+    grid-template-columns: 0.5fr 2fr 1fr;    
+    grid-template-rows: 2fr 11fr 1fr;
+    
+        
+}
+
+header{
+    grid-area: head;
+    background: rgb(17, 9, 9);
+    display: flex;
+    justify-content: center;
+    /*
+    padding: 5px;
+    font-size: 30px;
+    text-align: center;
+    color: white;
+    */
+
+}
+
+
+
+
+
+
+
+
+aside{
+    grid-area: side;
+    padding: 20px;
+    background: rgb(151, 34, 34);
+    color: #fff;
+}
+
+article{
+    grid-area: content;
+    padding: 20px;
+    background: rgb(155, 58, 58);
+    color: #fff;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer{
+    grid-area: foot;
+    background: rgb(17, 9, 9);
+    
+    /*
+    color: #fff;
+    padding: 20px;
+    text-align: center;
+    */
+    /*font-size: 30px;*/
+    
+    
+}
+
+.iconos{
+    display: flex;
+    font-size: 30px;
+    justify-content: center;
+}
+
+.icono{
+    display: inline-flex;
+    margin: 20px;
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+    outline: 2px solid #fff;
+    color: #fff;
+    cursor: pointer;
+
+
+
+    transition-property: outline-offset, outline-color, background-color;
+	transition-duration: 0.25s;
+}
+
+.icono:hover{
+    outline-offset: 4px;
+}
+
+.icono i{
+    margin:auto;
+}
+
+.icono:hover i {
+	animation: shake 0.25s;
+}
+
+.icono--ig:hover{
+    background-image: radial-gradient(
+		circle at 30% 107%,
+		#fdf497 0%,
+		#fdf497 5%,
+		#fd5949 45%,
+		#d6249f 60%,
+		#285aeb 90%
+	);
+	outline-color: #a02d76;
+}
+
+.icono--twitter:hover {
+	background-color: #1da1f2;
+	outline-color: #1da1f2;
+}
+
+.icono--linkedin:hover {
+	background-color: #0077b5;
+	outline-color: #0077b5;
+}
+
+.icono--github:hover {
+	background-color: #2ea44f;
+	outline-color: #2ea44f;
+}
+
+@keyframes shake {
+	10% {
+		transform: rotate(15deg);
+	}
+	20% {
+		transform: rotate(-15deg);
+	}
+	30% {
+		transform: rotate(15deg);
+	}
+	40% {
+		transform: rotate(-15deg);
+	}
+}
